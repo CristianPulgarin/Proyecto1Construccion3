@@ -1,0 +1,13 @@
+Create database registro;
+
+use registro;
+
+
+create table tblUsuario(idU int primary key identity, nombre varchar(40), apellido varchar(40), cedula int, genero varchar(40),
+correo varchar(40), telefono varchar(40))
+
+/*POR SI LAS MOSCAS*/
+insert into tblUsuario values ('cris','pul',1000761855,'hombre','cristianpulga13@gmail.com','5418450')
+
+
+SELECT * from tblUsuario
