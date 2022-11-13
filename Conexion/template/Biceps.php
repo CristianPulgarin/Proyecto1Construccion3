@@ -9,8 +9,8 @@ beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
 0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 crossorigin="anonymous">
 <title>TONIFIT CS</title>
-<link rel="stylesheet" href="css.css">
-<link rel="shortcut icon" href="img/tonifit.jfif" type="image/x-icon">
+<link rel="stylesheet" href="../public/css.css">
+<link rel="shortcut icon" href="../public/img/tonifit.jfif" type="image/x-icon">
 </head>
 
 <body>
@@ -20,11 +20,11 @@ crossorigin="anonymous">
 <a href="#">TONIFIT CS</a>
 </div>
 <nav class="navbar">
-    <a href="index.html">Inicio</a>
-    <a href="index.html">Entrenadores</a>
+    <a href="index.php">Inicio</a>
+    <a href="index.php">Entrenadores</a>
     <a href="#Rutinas">Rutinas</a>
-    <a href="index.html">Alimentacion</a>
-    <a href="Registro.html">Registro</a>
+    <a href="index.php">Alimentacion</a>
+    <a href="Registro.php">Registro</a>
     <a href="#nuestra">Información</a>
     
 
@@ -38,6 +38,7 @@ crossorigin="anonymous">
 
 <header class="content header">
     <h2 class="title">TONIFIT CS</h2>
+    <br><br>
     <p>¡Bienvenid@ a esta gran rutina parte en el gimnasio <strong>TONIFIT CS</strong>, Aquí encontraras algunos ejercicios para que te animes a venir
     </p> 
     <center><p>Actualmente contamos con grandes <strong>descuentos</strong>, !No te los
@@ -55,42 +56,39 @@ crossorigin="anonymous">
     <br><br>
     <div class="galeria-port">
         <div align="center" class="imagen-port">
-            <img src="img/abpartebaja.jfif" height="900" width="1100"> 
+            <img src="../public/img/MART.JPG" height="900" width="1100"> 
             <div class="hover-galeria">
             
-                <h2><strong>ABDOMEN PARTE BAJA</strong></h2>
-                <p>Contactate con nuestros entrenadores</p>
-                 </div>
+                <h2><strong>MARTILLO</strong></h2>
+                <p>Contactate con nuestros entrenadores</p> </div>
         
         </div>
         <div class="imagen-port">
-            <img src="img/partebaja.jpg" height="800" width="1100">
+            <img src="../public/img/CURL.JPG" height="800" width="1100">
             <div class="hover-galeria">
-                <h2><strong>ABDOMEN PARTE BAJA</strong></h2>
-                <p>Contactate con nuestros entrenadores</p>
-               
-                
-            </div>
-        </div>
-        <div class="imagen-port">
-            <img src="img/OB.jpg" height="800" width="1100">
-            <div class="hover-galeria">
-                <h2><strong>OBLICUOS</strong></h2>
+                <h2><strong>CURL DE BICEPS</strong></h2>
                 <p>Contactate con nuestros entrenadores</p>
                 
             </div>
         </div>
         <div class="imagen-port">
-            <img src="img/PLANCHA.JPG">
+            <img src="../public/img/BBARRA.JPG" height="800" width="1100">
+            <div class="hover-galeria">
+                <h2><strong>BICEPS CON BARRA</strong></h2>
+                <p>Contactate con nuestros entrenadores</p>
+            </div>
+        </div>
+        <div class="imagen-port">
+            <img src="../public/img/POLEABIC.JPG">
             <div class="hover-galeria">
     
-                <h2><strong>PLANCHA</strong></h2>
+                <h2><strong>BICEPS CON POLEA</strong></h2>
                 <p>Contactate con nuestros entrenadores</p>
-               
             </div>
         </div>
     
     
+       
 
 </body>
 
@@ -123,19 +121,19 @@ crossorigin="anonymous">
 
                 <div  class="row" >
                     <a href="www.facebook"
-                        target="_blank"><img src="img/face.png"></a>
+                        target="_blank"><img src="../public/img/face.png"></a>
                     <label> Siguenos en facebook</label>
 
                 </div>
                 <div class="row">
                     <a href="https://www.instagram" target="_blank"><img
-                            src="img/instagram.png"></a>
+                            src="../public/img/instagram.png"></a>
                     <label> Siguenos en Instagram</label>
 
                 </div>
                 <div class="row">
                     <a href="https://www.youtube.com" target="_blank"><img
-                            src="img/yout.png"></a>
+                            src="../public/img/yout.png"></a>
                     <label> Siguenos en Youtube</label>
 
                 </div>
@@ -145,15 +143,15 @@ crossorigin="anonymous">
             <div class="colum3">
                 <h1>Información</h1>
                 <div class="row2">
-                    <img src="img/casa.png">
+                    <img src="../public/img/casa.png">
                     <label>Laureles</label>
                 </div>
                 <div class="row2">
-                    <img src="img/tele.png">
+                    <img src="../public/img/tele.png">
                     <label>5418450</label>
                 </div>
                 <div class="row2">
-                    <img src="img/correo.png">
+                    <img src="../public/img/correo.png">
                     <label>tonifitcs@gmail.com</label>
                 </div>
             </div>
@@ -164,7 +162,7 @@ crossorigin="anonymous">
 
         <div class="contenedor-footer">
             <div class="copyright">
-                @2022 | Cristian Pulgarin || Cristian Barbosa || Mateo Jaramillo || Sergi Roberto
+                @2022 | Cristian Pulgarin || Cristian Barbosa || Mateo Jaramillo
             </div>
         </div>
     </div>

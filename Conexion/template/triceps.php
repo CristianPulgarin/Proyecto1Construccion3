@@ -9,9 +9,8 @@ beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
 0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 crossorigin="anonymous">
 <title>TONIFIT CS</title>
-<link rel="stylesheet" href="css.css">
-<link rel="shortcut icon" href="img/tonifit.jfif" type="image/x-icon">
-
+<link rel="stylesheet" href="../public/css.css">
+<link rel="shortcut icon" href="../public/img/tonifit.jfif" type="image/x-icon">
 </head>
 
 <body>
@@ -21,49 +20,70 @@ crossorigin="anonymous">
 <a href="#">TONIFIT CS</a>
 </div>
 <nav class="navbar">
-<a href="#">Inicio</a>
-<a href="#Entrenadores">Entrenadores</a>
-<a href="#Rutinas">Rutinas</a>
-<a href="#Alimentacion">Alimentacion</a>
-<a href="Inicio_sesión.html">Inicio sesión</a>
-<a href="#nuestra">Información</a>
-
+    <a href="index.php">Inicio</a>
+    <a href="index.php">Entrenadores</a>
+    <a href="#Rutinas">Rutinas</a>
+    <a href="index.php">Alimentacion</a>
+    <a href="Registro.php">Registro</a>
+    <a href="#nuestra">Información</a>
+    
 
 </nav>
 </div>
-<section>
 
-    
-    <br><br><br><br><br>
-<h1 class="text-primary"><strong>INICIO DE SESIÓN</strong></h1>
-<center><div class="col-6">
-<div class="input-group mb-3 col-2">
-   <input type="text" class="form-control" placeholder="Usuario" aria-label="Username">
-   
-  </div>
-</div>
 
-</center>
 
-<center><div class="col-6">
-    <div class="input-group mb-3 col-2">
-       <input type="password" class="form-control" placeholder="Contraseña" aria-label="password">
-       
-      </div>
+
+
+
+<header class="content header">
+    <h2 class="title">TONIFIT CS</h2>
+    <br><br>
+    <p>¡Bienvenid@ a esta gran rutina parte en el gimnasio <strong>TONIFIT CS</strong>, Aquí encontraras algunos ejercicios para que te animes a venir
+    </p> 
+    <center><p>Actualmente contamos con grandes <strong>descuentos</strong>, !No te los
+    pierdas¡</p></center>
+    <div class="btn-home">
     </div>
+    </header>
+   
     
-    </center>
-
-    <button type="submit" class="btn btn-primary">INGRESAR</button>
-    <a href="Registro.html"><button type="submit" class="btn btn-primary">REGISTRARSE</button></a>
-
-
-</section>
+    
+    
+    <section class="content about">
+        <br><br>
+    <h2 class="titulo"><a name="Rutinas">Rutinas</h2></a>
+    <br><br>
+    <div class="galeria-port">
+        <div align="center" class="imagen-port">
+            <img src="../public/img/triceps.JPG" height="900" width="1100"> 
+            <div class="hover-galeria">
+            
+                <h2><strong>TRICEPS CON POLEA</strong></h2>
+                <p>Contactate con nuestros entrenadores</p> </div>
+        
+        </div>
+        <div class="imagen-port">
+            <img src="../public/img/exten.jpg" height="800" width="1100">
+            <div class="hover-galeria">
+                <h2><strong>PATADAS DE TRICEPS</strong></h2>
+                <p>Contactate con nuestros entrenadores</p>
+                
+            </div>
+        </div>
+        <div class="imagen-port">
+            <img src="../public/img/frances.jpg" height="800" width="1100">
+            <div class="hover-galeria">
+                <h2><strong>FRANCES</strong></h2>
+                <p>Contactate con nuestros entrenadores</p>
+            </div>
+        </div>
+       
+    
+    
+        
 
 </body>
-</html>
-
-<br>
 
 <footer>
     <br>
@@ -94,19 +114,19 @@ crossorigin="anonymous">
 
                 <div  class="row" >
                     <a href="www.facebook"
-                        target="_blank"><img src="img/face.png"></a>
+                        target="_blank"><img src="../public/img/face.png"></a>
                     <label> Siguenos en facebook</label>
 
                 </div>
                 <div class="row">
                     <a href="https://www.instagram" target="_blank"><img
-                            src="img/instagram.png"></a>
+                            src="../public/img/instagram.png"></a>
                     <label> Siguenos en Instagram</label>
 
                 </div>
                 <div class="row">
                     <a href="https://www.youtube.com" target="_blank"><img
-                            src="img/yout.png"></a>
+                            src="../public/img/yout.png"></a>
                     <label> Siguenos en Youtube</label>
 
                 </div>
@@ -116,15 +136,15 @@ crossorigin="anonymous">
             <div class="colum3">
                 <h1>Información</h1>
                 <div class="row2">
-                    <img src="img/casa.png">
+                    <img src="../public/img/casa.png">
                     <label>Laureles</label>
                 </div>
                 <div class="row2">
-                    <img src="img/tele.png">
+                    <img src="../public/img/tele.png">
                     <label>5418450</label>
                 </div>
                 <div class="row2">
-                    <img src="img/correo.png">
+                    <img src="../public/img/correo.png">
                     <label>tonifitcs@gmail.com</label>
                 </div>
             </div>
@@ -142,8 +162,6 @@ crossorigin="anonymous">
 
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
-</body>
 </html>

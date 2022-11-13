@@ -9,8 +9,8 @@ beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
 0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 crossorigin="anonymous">
 <title>TONIFIT CS</title>
-<link rel="stylesheet" href="css.css">
-<link rel="shortcut icon" href="img/tonifit.jfif" type="image/x-icon">
+<link rel="stylesheet" href="../public/css.css">
+<link rel="shortcut icon" href="../public/img/tonifit.jfif" type="image/x-icon">
 
 </head>
 
@@ -25,7 +25,7 @@ crossorigin="anonymous">
 <a href="#Entrenadores">Entrenadores</a>
 <a href="#Rutinas">Rutinas</a>
 <a href="#Alimentacion">Alimentacion</a>
-<a href="Inicio_sesión.html">Inicio sesión</a>
+<a href="Inicio_sesión.php">Inicio sesión</a>
 <a href="#nuestra">Información</a>
 
 
@@ -53,26 +53,26 @@ pierdas¡</p></center>
 <div class="box-container">
 <div class="box">
 <br>
-<img src="img/messicalvo.jpg" height="170px" width="175px" alt="">
+<img src="../public/img/messicalvo.jpg" height="170px" width="175px" alt="">
 <h3>Leonardo Mesario</h3>
 
 </div>
 <div class="box">
 <br>
-<img src="img/cr7 calvo.jfif" height="170px" width="180px" alt="">
+<img src="../public/img/cr7 calvo.jfif" height="170px" width="180px" alt="">
 <h3>Cristiano Rolando</h3>
 
 </div>
 <div class="box">
 <br>
-<img src="img/neymar.jpg" height="170px" width="200px" alt="">
+<img src="../public/img/neymar.jpg" height="170px" width="200px" alt="">
 <h3>Nestor jr</h3>
 
 
 </div>
 <div class="box">
 <br>
-<img src="img/piedra.jpg" height="170px" width="180px" alt="">
+<img src="../public/img/piedra.jpg" height="170px" width="180px" alt="">
 <h3>Piedra Jhonson Stallone</h3>
 
 
@@ -89,65 +89,65 @@ pierdas¡</p></center>
 <br><br>
 <div class="galeria-port">
     <div align="center" class="imagen-port">
-        <img src="img/Abdomen.jpg" height="900" width="1100"> 
+        <img src="../public/img/Abdomen.jpg" height="900" width="1100"> 
         <div class="hover-galeria">
         
             <h2><strong>ABDOMEN</strong></h2>
             <p>Mira nuesta variedad de ejercicios</p>
-           <a href="abdomen.html"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
+           <a href="abdomen.php"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
         </div>
     
     </div>
     <div class="imagen-port">
-        <img src="img/pecho.jpg" height="800" width="1100">
+        <img src="../public/img/pecho.jpg" height="800" width="1100">
         <div class="hover-galeria">
             <h2><strong>PECHO</strong></h2>
             <p>Mira nuesta variedad de ejercicios</p>
-            <a href="pecho.html"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
+            <a href="pecho.php"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
             
             
         </div>
     </div>
     <div class="imagen-port">
-        <img src="img/espalda.jpg" height="800" width="1100">
+        <img src="../public/img/espalda.jpg" height="800" width="1100">
         <div class="hover-galeria">
             <h2><strong>ESPALDA</strong></h2>
             <p>Mira nuesta variedad de ejercicios</p>
-            <a href="Espalda.html"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
+            <a href="Espalda.php"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
 
         </div>
     </div>
     <div class="imagen-port">
-        <img src="img/bi.jpg">
+        <img src="../public/img/bi.jpg">
         <div class="hover-galeria">
 
             <h2><strong>BICEPS</strong></h2>
             <p>Mira nuesta variedad de ejercicios</p>
-            <a href="Biceps.html"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
+            <a href="Biceps.php"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
 
         </div>
     </div>
 
 
     <div class="imagen-port">
-        <img src="img/tri.jpg">
+        <img src="../public/img/tri.jpg">
         <div class="hover-galeria">
 
             <h2><strong>TRICEPS</strong></h2>
             <p>Mira nuesta variedad de ejercicios</p>
-            <a href="triceps.html"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
+            <a href="triceps.php"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
 
         </div>
     </div>
 
     
     <div class="imagen-port">
-        <img src="img/pierna.jpg">
+        <img src="../public/img/pierna.jpg">
         <div class="hover-galeria">
 
             <h2><strong>PIERNA</strong></h2>
             <p>Mira nuesta variedad de ejercicios</p>
-            <a href="piernas.html"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
+            <a href="piernas.php"> <button type="button" class="btn btn-primary btn-lg">MÁS INFORMACIÓN</button></a>
 
         </div>
     </div>
@@ -197,19 +197,19 @@ o a que preguntes a cada uno de nuestros entrenadores para tener una gran dieta 
 
                 <div  class="row" >
                     <a href="www.facebook"
-                        target="_blank"><img src="img/face.png"></a>
+                        target="_blank"><img src="../public/img/face.png"></a>
                     <label> Siguenos en facebook</label>
 
                 </div>
                 <div class="row">
                     <a href="https://www.instagram" target="_blank"><img
-                            src="img/instagram.png"></a>
+                            src="../public/img/instagram.png"></a>
                     <label> Siguenos en Instagram</label>
 
                 </div>
                 <div class="row">
                     <a href="https://www.youtube.com" target="_blank"><img
-                            src="img/yout.png"></a>
+                            src="../public/img/yout.png"></a>
                     <label> Siguenos en Youtube</label>
 
                 </div>
@@ -219,15 +219,15 @@ o a que preguntes a cada uno de nuestros entrenadores para tener una gran dieta 
             <div class="colum3">
                 <h1>Información</h1>
                 <div class="row2">
-                    <img src="img/casa.png">
+                    <img src="../public/img/casa.png">
                     <label>Laureles</label>
                 </div>
                 <div class="row2">
-                    <img src="img/tele.png">
+                    <img src="../public/img/tele.png">
                     <label>5418450</label>
                 </div>
                 <div class="row2">
-                    <img src="img/correo.png">
+                    <img src="../public/img/correo.png">
                     <label>tonifitcs@gmail.com</label>
                 </div>
             </div>
